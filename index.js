@@ -11,6 +11,8 @@ const API_KEY = '82mck9asmb68'
 const API_SECRET = 'knn5364must24t5afw34dwzyseb8nhxy94g2sen8gf5hfscuxynaugeu3kbxd3hz'
 const APP_ID = '1174310'
 
+app.use(express.static('./build'));
+
 app.use(cors())
 app.use(express.json())
 
